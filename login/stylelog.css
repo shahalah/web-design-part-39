@@ -1,0 +1,20 @@
+
+legend{
+    text-align:center;padding: 5px;color: #9e0000fd;;font-size: 25px;}
+form{text-align: center;margin: 50px 0;}
+input {
+    height: 17px;width: 250px;margin: 10px auto;padding: 5px;display: block;border: 2px solid #0b0b0bd2;border-radius: 0 20px;background-color: #f080873d;}
+.btn {margin:10px auto;padding: 5px 14px;font-size: 18px;border-radius: 15px;color: #ff0000;backdrop-filter: #ffffff; border: 1px solid #002fff;cursor:pointer;transition: all ease 0.4s;box-shadow:0 0 5px 1px #090909; &:hover{
+    background-color: #c1c1c1;
+}}
+
+ul{list-style-type: none;}
+.account {text-align: center;color: #000000;}
+.sing_up{color: #ff0000;text-decoration: none;font-size: 18px;margin: 6px;}
+.sing_up:hover{text-decoration: underline;color:#fb0668;}
+.here{color: #000000;margin-top: 3px;}
+.login_title{color: #000000;}
+img {height: 35px;width: 35px;background: #ffffff6c;border: 1px solid #ffffff; padding: 2px;border-radius: 10px;margin:0 6px}
+img:hover{background: #b4656552;border: 1px solid #a75c26f2;transition: all ease-out 0.2ms;box-shadow:0 0 5px 1px #090909;}
+.btn_back{margin:0 300px;color: #0b0b0b; text-decoration: none; padding: 5px 13px; border: 2px solid #930000; border-radius: 20px; box-shadow: 0 0px 3px 0 #d04747, 0 0px 4px 0 #dd0202;}
+.btn_back a{text-decoration: none;}

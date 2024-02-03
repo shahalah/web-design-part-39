@@ -1,0 +1,63 @@
+*{margin: 0 auto;padding: 0 auto;}
+.all_body{background-image: url("goldenbg.jpg");
+height: 710px;width: auto;background-size: cover;background-attachment: scroll;}
+.second_div{height:auto;width: 1060px;margin: 0 auto;padding: 0 auto;}
+/*==============================================Header part====================================================*/
+.hader_part{height: 135px;padding-top: 8px;}
+.hader_part img {height: 115px;width: 209px;position: absolute;margin: -117px 0 0 15px;}
+.hader_part h1{font-size: 50px;color: #ff00009e;padding: 5px 0 10px 0;background:#6d6d6d30 ;border-radius: 10px;height: 110px;text-align: center;margin: 0 auto;border: 2px solid #00000022;}
+.hader_part h5{font-size: 15px;color: #533535;background-color: #00000017;width: 600px;height: 27px;border-radius: 10px;text-align: center;padding: 7px 0 0 0;margin: -50px 0 0 230px;}
+/*=============================================menu part=====================================================*/
+.menu_part{    border: 2px solid #e7d52029;height: 56px;width: auto;background: #3828286b;border-radius: 10px;}
+.menu_part ul{margin:0 auto;padding:0 auto;list-style-type: none;}
+.menu_part ul li{display:inline-block;margin: 8px 48px 13px 6px;height: 20px;padding: 5px;}
+.menu_part ul li a{color: #ffffffbd;text-decoration: none;transition: all ease 0.3s;font-size: 15px;display: block;border: 1px solid darkgray;border-radius: 10px;background: #0000009d;padding: 6px 10px 7px 10px;}
+.menu_part ul li a :first-child{border-left:none ;}
+.menu_part ul li a :last-child{border-right: none;}
+.menu_part ul li a:hover{color:#fbfbfbda;background-color:#ff4800;border-bottom:1px solid #f3eded90;}
+/*============================= drop down menu ===============================*/
+.menu_part ul li ul{position:absolute;left: -99999999px;width: 186px;z-index:999;height: 122px;}
+.menu_part ul li:hover ul{top: 185px;left: 450px;}
+.menu_part ul li ul li{position: relative;float: none;    display: block;margin: 0 0 0 -20px;}
+.menu_part ul li ul li a {display:block;border-left: none;border-right: none;border-top: 1px solid #1b1a1ad3;border-bottom: 1px solid #000000e4;margin: auto;padding: 5px 20px;}
+
+/*=============================================navigation part L=====================================================*/
+.nev_part{width: 100%;height: 490px;margin: 0 auto;}
+.nav_part2{height: 448px;}
+.left_nev {height:500;width: 700px;position: absolute;text-align: left;}
+#slider{height: 430px;width: 700px;padding: 0;}
+/*=============================================navigation part R=====================================================*/
+.right_nev { position: relative; text-align: left;height: 430px;width: 343px;margin: 7px 0 0 717px;background: #13020287;border-radius: 10px ;}
+.right_nev h1{text-align:center;padding: 5px;color: #fa7676fd;border-bottom:3px solid #070707d6;font-size: 25px;}
+.right_nev h1:hover{color: #eb4e14d3;transition: all ease-in 1s;}
+.from{margin: 35px 0 0 0 ;}
+.right_nev input {margin: 10px 0 0 16px;display: block;padding: 8px 130px 8px 15px;border: 2px solid #0b0b0bd2;border-radius: 0 20px;background-color: #f080873d;color: white;}
+.btn {margin: 30px 0 10px 143px;background-color: #f080873d;padding: 7px 12px;font-size: 18px;border-radius: 8px;border: none;color: #ff3300;}
+.right_nev ul{list-style-type: none;}
+.account {text-align: center;color: white;margin-top: 6px;}
+.sing_up{text-align: center;margin: 15px 0 0 148px;color: #eb4e14d3;display: flex;text-decoration: none;}
+.sing_up:hover{text-decoration: underline;color:#fb4706;}
+.here{text-align: center;color: white;margin-top: 3px;}
+.login{text-align: center;color: white;margin-top: 5px;}
+.right_link{margin: -12px 0 0 70px;}
+.right_link a {display: inline-block;}
+.right_link a img {height: 28px;width: 28px;background: #0b0a0a6c;border: 1px solid #ffffff; padding: 2px;border-radius: 10px;margin: 25px 6px 0 0;}
+.right_link a img:hover{background: #00000052;border: 1px solid #a75c26f2;transition: all ease-out 0.2ms;}
+.mid_nav{}
+.mid_nav a{}
+.mid_nav img{width: 257px;margin: 30px 6px 10px 0;}
+.mid_nav :last-child{margin: 30px 0 10px 1px;}
+.About{height: auto;width: auto;}
+.About ul{margin: 0 auto;padding: 0 auto;height: 55px;}
+.About ul li{border: 1px solid gray;;display: inline-block;margin: 5px 1px 5px 1px;border-radius: 10px;background: #0000004b;padding: 5px;}
+.About ul li:first-child{margin-left: 0 auto;}
+.About ul li:last-child{margin-right: 0 auto;}
+.About ul li a{text-decoration: none;color: rgba(255, 253, 253, 0.562);display:block;font-size: 14px;margin: 0 auto;transform: all ease .5s;}
+.About ul li:hover{background: #eb4e14d3;}
+.all_body2{background: url(global.jpg);background-size: cover;background-attachment: fixed;}
+.second_div2{display: flex;flex-direction: row;justify-content: space-between;}
+.description{}
+.description a img{height: 400px;width: 600px;}
+.description h1{color: #ffffff;}
+
+/*=============================================footer part=====================================================*/

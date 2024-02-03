@@ -1,0 +1,10 @@
+body {
+	text-align: center;
+}
+form{position: relative;}
+.Text{height: 20px;width:200px;color: #000000;border-radius: 10px 0;}
+.btn_smt_rst{padding: 5px 14px;color: #ff0000;border: 1.5px solid #ff0000;border-radius:15px;font-weight: bold;font-size: 16px;cursor: pointer;}
+.btn_smt_rst:hover{box-shadow: 0 0 3px 1px #ff0000;}
+.btn_back{color: #0b0b0b;text-decoration: none;text-align: left;position:absolute;}
+.btn_back a{text-decoration: none; padding: 5px 13px;box-shadow: 0 0 2px 1px #0037ff;border: 2px solid #0015ff;border-radius: 20px;color: #930000;font-size: 17px;transition:all ease 0.2s;}
+.btn_back a:hover{color: #ff3300;}
